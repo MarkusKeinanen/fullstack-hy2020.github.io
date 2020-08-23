@@ -425,6 +425,9 @@ Sovelluksen tämän hetkinen koodi on kokonaisuudessaan [Githubissa](https://git
 
 Ota sovellukseesi käyttöön ESlint, ja korjaa kaikki tyylivirheet.
 
+**HUOM** create-react-appin react-scripts sisältää ESLint-kirjaston jo ennestään. Kun installoit sen juuritasolla, saatat saada virheen ajaessasi frontendissä build-komennon.
+Jos frontend ja backend ovat samassa projektissa, varmista että ne käyttävät samaa ESLint-versiota. Voit installoida tarkan version komennolla npm install eslint@[versio] (esim. eslint@6.6.0).
+
 Tämä oli osan viimeinen tehtävä, joten on aika pushata koodi Githubiin sekä merkata tehdyt tehtävät [palautussovellukseen](https://studies.cs.helsinki.fi/stats/courses/fullstackopen).
 
 </div>
